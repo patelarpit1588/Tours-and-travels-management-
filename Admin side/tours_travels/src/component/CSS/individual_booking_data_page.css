@@ -1,0 +1,29 @@
+#count_cards_1
+{
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(80,80,80,0.2);
+    -border:2px solid rgb(80,80,80);
+    width:23.5%;
+    margin-left:15px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+#count_card_heading_1
+{
+    font-family: outfit;
+    font-size: 20px;
+}
+#counting_1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 26px;;
+    font-weight: 600;
+    color:rgb(29, 2, 116);
+    padding-bottom:5px;
+}
+#Count_Image
+{
+    margin-top:20px;
+}
+

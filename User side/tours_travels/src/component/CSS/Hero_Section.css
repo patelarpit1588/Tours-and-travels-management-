@@ -1,0 +1,96 @@
+#Main_div
+{
+    height:600px;
+    margin-bottom: 35px;
+}
+.col-7 , .col-5
+{
+    margin-top:40px
+}
+
+#Hero_Section_Content_1
+{
+    padding:60px;
+}
+#Hero_desc
+{
+    font-size: 60px;
+    text-align: left;
+    font-family: outfit;
+    padding:30px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+#highlight 
+{
+    color: #ffb700;     /* jise color dena hai */
+    font-weight: bold;
+}
+#highlight:hover
+{
+    color: rgb(0, 102, 255);     /* jise color dena hai */
+    font-weight: bold;
+    transition: 2S;
+}
+
+#Hero_Section_Content_2
+{
+    width: 70%;
+    margin-left: 1px;
+}
+
+#Hero_Small_Desc
+{
+    font-size: 16px ;
+    text-align: left;
+    font-family: outfit;
+    font-weight: 300;
+    padding:25px;
+    color: rgb(80, 80, 80);
+
+}
+#Stats_Row {
+    padding: 20px;
+}
+
+.Stat_Box {
+    text-align: left;
+}
+
+#Stat_Number {
+    font-size: 45px;
+    font-family: outfit;
+    font-weight: 700;
+    color: #ffb700;
+}
+
+#Stat_Label {
+    font-size: 16px;
+    font-family: outfit;
+    color: rgb(80, 80, 80);
+    margin-top: -8px;
+}
+
+#Hero_Section_Image_1
+{
+    height:550px;
+
+}
+.Image_Box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image_Box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* image ko div ke andar tightly fit karega */
+    transition: transform 0.4s ease;
+    display: block;
+}

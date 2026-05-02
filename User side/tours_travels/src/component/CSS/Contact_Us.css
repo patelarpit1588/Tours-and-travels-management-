@@ -1,0 +1,45 @@
+#Main_Contact_div
+{
+    height:600px;
+    margin-bottom: 35px;
+    margin-top:35px;
+}
+#Contact_Section_Image_1
+{
+    margin:25px;
+    height:550px;
+}
+#Contact_desc 
+{
+    font-family: outfit;
+    text-align: left;
+    font-size: 45px;
+    padding:0px 40px 40px 10px;
+    
+    font-weight: 700;
+}
+#Contact_hero
+{
+    color:rgb(255,0,55)
+}
+#Contact_Section_Content_1
+{
+    margin-left:70px
+}
+
+#Contact_Submit
+{
+    padding:10px;
+    width:300px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+}
+#Contact_Submit:hover
+{
+    color:rgb(255, 255, 255);
+    background-color:rgb(255,0,55);
+    transition: 1s;
+    border: 2px solid white;
+}

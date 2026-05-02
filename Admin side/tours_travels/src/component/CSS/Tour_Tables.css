@@ -1,0 +1,171 @@
+#Headings
+{
+    font-family: outfit;
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    color:rgb(27, 0, 68);
+}
+#Headings_1
+{
+    font-family: outfit;
+    font-size: 40px;
+    text-align: center;
+    color:rgb(27, 0, 68); 
+}
+
+#view_package_table th
+{
+    font-size: 13px;
+    font-weight: 900;
+    font-family: outfit;
+}
+#view_package_table td
+{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: outfit;
+}
+
+#view_package_table tbody tr 
+{
+    height: 200px;        
+}
+
+#view_package_table tbody td
+{
+    vertical-align: middle;
+    max-height: 200px;
+    overflow-y: auto;      
+}
+
+#view_package_table .message-column , #view_enquiry_table .message-column
+{
+    display: block;
+    overflow-y: auto;
+}
+
+#view_review_table .message-column , #view_enquiry_table .message-column {
+    max-height: 100px;
+    overflow-y: auto;
+    display: block;
+    padding-right: 5px;
+}
+
+#view_review_table th 
+{
+    max-width:200px
+}
+#view_enquiry_table th {
+    max-width:200px
+}
+#view_review_table , #view_enquiry_table , #view_package_table
+{
+    margin-top: 40px;
+    margin-bottom:40px;
+    width:100%;
+    text-align: center;
+    font-family: outfit;
+    font-size: 15px;
+    vertical-align: center;
+}
+#btn_edit , #btn_delete , #btn_add_image
+{
+    margin:2px;
+    width:95px;
+}
+#view_package_image
+{
+    height:125px;
+    margin:1px;
+    border-radius:15px;
+}
+
+
+/*/========================= Booking_Table ===========================*/
+#view_table
+{
+    margin-top:20px;
+    font-family: outfit;
+    table-layout: auto;   
+    width: 100%;
+    text-align:center;
+    vertical-align:middle
+}
+#view_table th, #view_table td 
+{
+    white-space: nowrap;  
+}
+.view-table-wrapper {
+    width: 100%;
+    overflow-x: auto;   
+}
+
+/* For Booking Table View Edit Delete*/ 
+#btn_edit_1
+{
+    margin:2px;
+    width:100px;
+}
+
+#Booking_Status , #Enquiry_Status
+{
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(0, 0, 0) !important;
+    padding:15px;
+    width:125px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius:0px;
+    border:2px solid blue;
+    border-right:none;
+    border-left: none;
+    font-family: outfit;
+}
+#Booking_Status:hover , #Enquiry_Status:hover
+{
+    background-color: rgb(27, 0, 68) !important;
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    transition: 0.8s;
+}
+
+
+/* DataTable top controls spacing */
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_info
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: outfit;
+
+}
+.dataTables_wrapper .dt-buttons
+{
+    text-align: center !important;
+    clear:both
+}
+.dataTables_wrapper .dataTables_filter
+{
+    margin-bottom:30px;
+    font-family: outfit;
+}
+
+.dataTables_wrapper .dt-buttons .dt-button
+{
+    width:160px;
+    font-family: outfit;
+    border-radius: 10px;;
+    font-size: 15px;;
+    background-color: rgba(255, 234, 0, 0.872) !important;
+    border:2px solid white !important;
+}
+.dataTables_wrapper .dt-buttons .dt-button:hover
+{
+    background-color: rgba(255, 200, 0, 0.872) !important;
+    transition: 1.5s;
+    border:2px solid rgb(255, 255, 255) !important;
+    color:rgb(0, 0, 0);
+}

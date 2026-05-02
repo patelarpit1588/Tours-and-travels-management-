@@ -1,0 +1,95 @@
+#Packages_Header
+{
+    margin-top:30px;
+}
+#Packages_Header_Text
+{
+    font-family: outfit;
+    font-size: 42px;
+    font-weight: 600;
+}
+#packages_text_highlight
+{
+    color:rgb(7, 172, 0)
+}
+#package-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px auto;
+    width: 100%;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+}
+#package-card:hover {
+    transform: scale(1.05);
+    transition:1s
+}
+
+#package-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#package-title {
+    font-family: outfit;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#package-desc {
+    font-family: outfit;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    text-align: left;
+    overflow: hidden;
+    line-height: 1.2em;
+  max-height: 3.6em; /* 3 lines * line-height */
+}
+
+#package-price {
+    font-family: outfit;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(7, 172, 0);
+    font-weight: 700;
+}
+
+#viewmore-btn
+{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: outfit;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-right:10px; 
+}
+#viewmore-btn:hover
+{
+    background-color: rgb(10, 88, 3);
+    color: rgb(255, 252, 252);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+
+#package-btn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: outfit;
+    margin-top: 10px;
+    font-weight: 400;
+}
+#package-btn:hover {
+    background-color: rgb(7, 172, 0);
+    color: rgb(255, 252, 252);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 1s;   
+}

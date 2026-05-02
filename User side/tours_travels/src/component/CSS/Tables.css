@@ -1,0 +1,14 @@
+#view_my_table
+{
+  font-family: outfit; 
+  text-align: center; 
+  vertical-align: middle;
+  margin-top: 10PX;;
+
+}
+#btn_pay_now
+{
+    text-decoration: none;
+    padding:5px 20px 5px 20px;
+    border-radius:10px;
+}

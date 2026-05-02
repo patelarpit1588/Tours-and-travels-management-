@@ -1,0 +1,117 @@
+#Enquiry_Form_container
+{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    border-radius:10px;
+    box-shadow: 0 0 5px 5px rgb(0,0,0,0.05);
+}
+
+#Enquiry_Page_header
+{
+    font-family: outfit;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    text-align: left;
+    color:rgb(27, 0, 68)
+}
+
+#Enquiry_Form_container .row
+{
+    padding:15px;
+    font-family: outfit;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#Traveller_details input,
+#Traveller_details textarea 
+{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#Tour_Enquiry_Link
+{
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(0, 0, 0) !important;
+    padding:10px;
+    width:125px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius:0px;
+    border:2px solid blue;
+    border-right:none;
+    border-left: none;
+    font-family: outfit;
+}
+
+#Tour_Enquiry_Link:hover
+{
+    background-color: rgb(27, 0, 68) !important;
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    transition: 0.8s;
+}
+
+#Tour_Enquiry_Link.active
+{
+    background-color: rgb(102, 0, 255) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+#Back_Buttons
+{
+    margin-left: 20px;
+    margin-top: 40px;  
+     
+}
+#Back_Buttons button
+{
+    width:200px;
+    text-align: center;
+    font-family: outfit;
+    padding:10px;
+}
+#preview_image
+{
+    border: 1px solid rgb(232, 227, 227);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    overflow: hidden;
+    width: 100%;             
+    max-width: 50%;        
+    height: auto;            
+}
+
+#preview_image img
+{
+    max-width: 100%;   
+    max-height: 500px; 
+    object-fit: contain; 
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#Reply_btn
+{
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(27, 0, 68) !important;
+    font-family: outfit;
+    color:rgb(27, 0, 68) !important;
+    width:100%;
+}
+
+#Reply_btn:hover
+{
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(27, 0, 68) !important;
+    background-color:rgb(27, 0, 68) !important;
+    transition: 0.8s;
+}

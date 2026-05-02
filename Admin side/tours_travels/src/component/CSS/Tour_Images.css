@@ -1,0 +1,85 @@
+#Form-container
+{
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    border-radius:20px;
+    box-shadow: 0 0 5px 5px rgb(0,0,0,0.05);
+}
+#Page_header
+{
+    font-family: outfit;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+    text-align: left;
+    color:rgb(27, 0, 68)
+}
+#Form-container .row
+{
+    padding:15px;
+    font-family: outfit;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#Preview_Images 
+{
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px;           
+}
+
+#Preview_Images img 
+{
+    width: calc(25% - 20px);  
+    height: auto;
+    object-fit: contain;  
+    border-radius: 10px; 
+    margin-bottom: 30px;    
+}
+
+#Add_Images
+{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(27, 0, 68) ;
+    color: rgb(0, 0, 0);
+}
+#Add_Images:hover
+{
+    background-color: rgb(27, 0, 68) ;
+    border-color: rgb(27, 0, 68);
+    color: rgb(255, 255, 255) ;
+    box-shadow: none;
+    transition: 1s;
+}
+    
+ #add_Package_Link , #view_Package_Link
+{
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(0, 0, 0) !important;
+    padding:15px;
+    width:200px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius:0px;
+    border:2px solid blue;
+    border-right:none;
+    border-left: none;
+    font-family: outfit;
+}
+
+#add_Package_Link:hover , #view_Package_Link:hover
+{
+    background-color: rgb(27, 0, 68) !important;
+    border-color: rgb(27, 0, 68) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    transition: 0.4s
+}
+
+#add_Package_Link.active , #view_Package_Link.active
+{
+    background-color: rgb(102, 0, 255) !important;
+    color: rgb(255, 255, 255) !important;
+}

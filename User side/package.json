@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "datatable": "^2.0.2",
+    "jquery": "^3.7.1",
+    "react-toastify": "^11.0.5"
+  }
+}

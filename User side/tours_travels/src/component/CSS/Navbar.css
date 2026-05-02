@@ -1,0 +1,153 @@
+#navbar
+{
+    width:100%;
+    height:60px;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+#logo_text_1 , #logo_text_2
+{
+    font-family: outfit;
+    font-size: 25px;
+    font-weight:200;
+}
+#navbar_div
+{
+    text-align:right;
+}
+
+#navbarlinks{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin-right:40px;
+    position:relative;
+    padding-bottom:3px;
+    font-family:outfit;
+    font-size:17px;
+}
+
+#navbarlinks:hover{
+    color:rgb(255, 0, 0);
+    transition:0.4s;
+}
+#navbarlinks::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:2px;
+    background:rgb(255, 255, 255);
+    bottom:0;
+    left:0;
+    transform:scaleX(0);
+    transition:0.7s;
+}
+
+#navbarlinks:hover::after
+{
+    transform:scaleX(1);
+}
+
+
+#logout-button 
+{
+    width: 100%;
+    padding: 12px 14px;
+    border: none;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+}
+
+#user-menu {
+    position: relative;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+#user-email-trigger {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+#user-email-trigger:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+}
+
+#arrow {
+    font-size: 14px;
+    
+}
+
+#user-dropdown {
+    position: absolute;
+    top: 115%;
+    right: 0;
+    width: 240px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+#dropdown-header {
+    padding: 14px;
+    font-family: outfit;
+}
+
+#signed-text {
+    font-size: 13.5px;
+    color: #0077ff;
+    margin-bottom: 4px;
+}
+
+#dropdown-email 
+{
+    font-size: 14px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+#dropdown-divider {
+    height: 1px;
+    background: #e5e7eb;
+}
+
+#dropdown-link
+{
+    width: 100%;
+    padding: 12px 14px;
+    border: none;
+    background: white;
+    text-align: left;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+}
+
+#dropdown-link:hover,
+#logout-button:hover {
+    background: #f8f9fa;
+    COLOR:RED;
+    transitioN:0.4s;
+}

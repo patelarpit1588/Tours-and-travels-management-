@@ -1,0 +1,91 @@
+@font-face 
+{
+    font-family: 'Outfit';
+    src: url('../public/Fonts/Outfit/static/Outfit-regular.ttf');
+}
+
+#Logo_div
+{
+    -border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 5px 5px rgb(0,0,0,0.1);
+}
+#Logo_image {
+    height: 90px;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+#username 
+{
+    /* background-color: rgb(249, 247, 247); */
+    font-size: 16px;
+    font-family: Outfit;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 40px;
+    border-radius: 12px;
+    -border: 2px solid rgb(0, 0, 0);
+    height: 80px;
+    margin-top:20px;
+    box-shadow: 0 0 5px 5px rgb(0,0,0,0.1);
+    width:99.3%
+}
+
+#navigation_bar 
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(27, 0, 68);
+    height: 100%;
+    color: white;
+}
+#Links 
+{
+    font-family: outfit;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left:20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;;
+}
+#Links:hover , Link 
+{
+    background-color: rgb(255, 255, 255);    
+    width: 80%;
+    transition: 0.8s;
+    color: rgba(0, 7, 138, 1);
+}
+#admin_image
+{
+    width:30px;
+    height:30px;
+    object-fit:cover;
+    border-radius:50%;
+}
+#Traveller_details
+{
+    /*border: 2px solid rgb(0, 0, 0);*/
+    border-radius: 10px;
+    width: 82%;
+    background-color: rgb(249, 247, 247);
+    box-shadow: 0 0 5px 5px rgb(0,0,0,0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left:50px;   
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;   
+}
+
+#fullPage {
+    background: white;
+}
+.dataTables_wrapper {
+    overflow: visible !important;
+}

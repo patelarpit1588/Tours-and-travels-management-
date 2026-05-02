@@ -1,0 +1,126 @@
+#About_div_image {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+#about_image_12
+{
+  height:775px;
+}
+#About_div_text
+{
+  height:590px;
+  width:56%;
+  margin-top:60px;
+  margin-bottom:50px; 
+}
+#About_div_text1
+{
+  height:590px;
+  width:50%;
+  margin-top:60px;
+  margin-bottom:50px; 
+  margin-left:60px;
+}
+#Welcome_Message_1
+{
+  padding-top:50px;
+  font-family: outfit;
+  font-size: 60px;
+  font-weight: 600;
+}
+#Welcome_Message_2
+{
+  font-family: outfit;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left:90px
+}
+
+#Paragraphs
+{
+  width:80%;
+  margin-top:20px
+}
+
+#Paragraph_Header
+{
+  font-family:outfit;
+  font-size:25px;
+  padding:5px;
+  font-weight:800
+}
+#Paragraph_Desc
+{
+  font-family: outfit;
+  color:rgb(80,80,80);
+  text-align:justify;
+}
+#About_Bottom_Paragraphs
+{
+width:80%;
+}
+#About_Bottom_Paragraph_Header
+{
+  font-family:outfit;
+  font-size:25px;
+  padding:5px;
+  font-weight:800;
+  margin-left:40px
+}
+#About_Bottom_Paragraph_Desc
+{
+  font-family: outfit;
+  color:rgb(80,80,80);
+  text-align:justify;
+  margin-left:40px
+}
+#about-container
+{
+    height:600px;
+    margin-bottom: 85px;
+}
+#Why_Choose_Text
+{
+    font-family: outfit;
+    font-size: 35px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+#Choose_Highlight
+{
+    color:rgb(149, 0, 255)
+}
+#Service_div
+{
+    height:300px;
+}
+#service
+{
+    height:200px;
+}
+#service_content
+{   
+    margin-top:18px;
+    height:165px;
+    border-radius:30px;
+}
+#service_content:hover
+{   
+  transform: scale(1.06);
+  transition: 0.6s;
+}
+#service_bold
+{
+  padding: 30px 0px 0px 0px;
+  text-align:center;
+  font-size:20px;
+  font-family: outfit;
+  font-weight:600
+}
+#service_desc
+{
+  padding:0px 15px 0px 15px;
+  text-align:center;
+  font-family: outfit;
+  color: rgb(80, 80, 80);
+}

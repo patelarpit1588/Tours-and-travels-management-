@@ -1,0 +1,98 @@
+
+@font-face 
+{
+    font-family: 'Outfit';
+    src: url('../public/Fonts/Outfit/static/Outfit-regular.ttf');
+}
+
+#background
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;  
+    width: 100%;
+}
+#Login_container
+{
+    
+    background-color: white;
+    width:1050px;
+    height:650px;
+    border-radius: 30px;
+    margin:auto;
+    padding-right: 20px;;
+    margin-top:20px;
+}
+#Register_container
+{
+    background-color: white;
+    width:1050px;
+    height:650px;
+    border-radius: 30px;
+    margin: 20px auto;
+    padding-right: 20px;;
+}
+
+#Login_page_image
+{
+    object-fit: contain;
+    height: 650px;
+    border-radius: 20px;
+    margin: 20px;
+}
+#Login_page_details
+{
+    padding:40px 80px 40px 40px;
+    border-radius: 25px;
+}
+#welcome_back
+{
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 45px;
+}
+.form-floating:focus
+{
+    background-color: purple !important;
+}
+#Login_Button
+{
+    width:100%;
+    padding:10px;
+    background-color:white;
+    color: rgba(128, 70, 190, 1);
+    border:2px solid rgba(128, 70, 190, 1); ;
+    border-radius:10px;
+    font-family: outfit;
+    text-decoration: none;
+    display: block;
+    text-align: center;   
+    font-weight: 500;
+    font-size: 17PX;
+}
+#Login_Button:hover
+{
+    color:white;
+    background-color: rgba(128, 70, 190, 1);
+    transition: 0.5s;
+}
+#Register_Link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: outfit;
+    font-size:16px;
+}
+#Register_Link:hover
+{
+    color: rgba(128, 70, 190, 1);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#welcome_create_Account
+{
+    font-family: outfit;
+    font-size:40px;
+    font-weight: 700;
+}

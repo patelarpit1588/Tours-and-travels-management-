@@ -1,0 +1,86 @@
+#background_123
+{
+    background-image: url("/Image/Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;  
+    width: 100%;
+}
+#Main_Payment_Div
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:20px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+    background-color: white;
+}
+#payment_summery_card_div
+{
+    text-align:center;
+}
+#payment_summery_card
+{
+    height: 125px;
+    border:2px solid rgb(80,80,80,0.5);
+    border-radius:20px;
+    margin:40px 0px 20px 50px;
+}
+#Payment_Labels
+{
+    font-family:outfit;
+    font-size: 32px;
+    margin-top:10px;
+    font-weight: bold;
+
+}
+#Payment_Count
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(8, 203, 0);
+}
+#payment_div
+{
+    border:2px solid rgb(80,80,80,0.2);
+    height:300px;
+    margin-left:50px;
+    border-radius:20px;
+    margin-bottom:40px;
+    font-family:outfit;
+    padding:30px;
+}
+#payment_method_label
+{
+    margin-bottom:5px;
+    font-size:17px;
+}
+#payment_history_div
+{
+    border:2px solid rgb(80,80,80,0.2);
+    margin-left:40px;
+    margin-bottom:40px;
+    width:65%;
+    border-radius:10px;
+    overflow-y: auto;
+    max-height: 300px;;
+}
+#btn_pay
+{
+    margin-top:20px;
+    width:100%;
+    padding:8px;
+    font-size:16px;
+    border-radius:10px;
+    background-color: white;
+}
+#btn_pay:hover
+{
+    background-color: rgb(8, 203, 0);
+    transition: 0.8s;
+    color:white;
+    border:2px solid white
+}

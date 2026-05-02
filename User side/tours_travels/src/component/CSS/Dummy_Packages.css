@@ -1,0 +1,142 @@
+#Main_dummy_div
+{
+    height:600px;
+    margin-bottom: 35px;
+}
+#Dummy_Section_Content_1
+{
+    margin:5px;
+    height:575px;
+}
+#dummy_desc
+{
+    margin-top:180px;
+    padding-left:20px;
+    font-size:42px;
+    font-family: outfit;
+    font-weight: 800;
+}
+#dummy_highlight
+{
+    color: rgb(8, 203, 0);
+}
+#Dummy_Section_Content_2
+{
+    margin-left: 1px;
+    width:90%;
+    margin-top:20px;
+}
+#dummy_Small_Desc
+{
+    padding:15px;
+    font-size: 16px;
+    font-family: outfit;
+}
+#Dummy_Image_1 {
+    height: 275px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+}
+#Btn_SeeMore_Packages
+{
+    padding:10px;
+    border-radius:50px;
+    font-family: outfit;
+    background-color: white;
+    font-weight: 500;
+    margin:40px 0px 0px 10px; 
+    text-decoration: none;
+    border: 2px solid black;
+    color:black
+}
+
+#Btn_SeeMore_Packages:hover
+{
+    border: 2px solid;
+    color:white;
+    background-color:rgb(8, 203, 0);
+    transition:1s
+}
+#dummy_packages_div
+{
+    height:500px;
+    width:57%;
+    margin-top:5px;   
+}
+#Our_Packages_text
+{
+    font-family: outfit;
+    font-size:40px;
+    font-weight:bold;
+    margin-top:30px
+}
+
+/*=======================================================*/
+
+.package-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 20px 30px 30px;
+    width: 80%;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+}
+
+.package-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.package-title {
+    font-family: outfit;
+    margin-top: 12px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.package-desc {
+    font-family: outfit;
+    font-size: 15px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.package-price {
+    font-family: outfit;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(7, 172, 0);
+    font-weight: 700;
+}
+
+.package-btn {
+    background: rgb(8, 203, 0);
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: outfit;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#packageCarousel .carousel-control-prev,
+#packageCarousel .carousel-control-next {
+    width: 40px;            /* button ka area reduce */
+    height:40px;
+    margin-top:250px;
+    overflow-x:hidden;
+}
+
+#packageCarousel .carousel-control-prev {
+    left:-25px;            /* arrow ko thoda card ke paas lao */
+}
+
+#packageCarousel .carousel-control-next {
+    right: 5px;           /* arrow ko thoda card ke paas lao */
+}
+
